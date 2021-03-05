@@ -1,0 +1,248 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:dc="http://purl.org/dc/terms/" xmlns="http://www.w3.org/2005/Atom">
+  <title>Рациональное мышление</title>
+  <subtitle>Статьи и художественная литература</subtitle>
+  <author>
+      <name>Элиезер Юдковский</name>
+      <uri>http://hpmor.ru/files/odps.xml</uri>
+  </author>
+  <id>calibre-all:timestamp</id>
+  <icon>http://lesswrong.ru/favicon.ico</icon>
+  <updated>2015-03-04T12:42:54+00:00</updated>
+  <link type="application/atom+xml;type=feed;profile=opds-catalog" rel="start" href="http://hpmor.ru/files/odps.xml"/>
+  <link type="application/atom+xml;type=feed;profile=opds-catalog" rel="up" href="http://hpmor.ru/files/odps.xml"/>
+
+  <entry>
+    <title>Свежий взгляд на вещи</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:7d640b9a-3883-11e8-8579-4baa2f88027a</id>
+    <updated>2018-04-05T06:43:23+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">В этой цепочке описывается, как можно заставить мозг действительно о чём-то задуматься, вместо того, чтобы остановиться на первой пришедшей в голову мысли.</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Свежий_взгляд_на_вещи.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Свежий_взгляд_на_вещи.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Свежий_взгляд_на_вещи.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Смертельные спирали и аттрактор культа</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:aac58d2a-3883-11e8-883f-5beb9a2e90c9</id>
+    <updated>2018-04-05T06:44:39+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"></div>
+    </content>
+    <link href="http://lesswrong.ru/files/Смертельные_спирали_и_аттрактор_культа.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Смертельные_спирали_и_аттрактор_культа.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Смертельные_спирали_и_аттрактор_культа.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Редукционизм</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:e3188466-3883-11e8-91cd-af8bb09167b8</id>
+    <updated>2018-04-05T06:46:13+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Как разобрать реальность на составные части? И как жить в такой вселенной, где мы всегда жили, но без разочарования из-за того, что сложные вещи состоят из простых вещей.</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Редукционизм.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Редукционизм.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Редукционизм.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Живя осознанно</title>
+    <author>
+      <name>Hanna Finley</name>
+    </author>
+    <id>urn:uuid:0430e828-3884-11e8-84b5-ab73faf686af</id>
+    <updated>2018-04-05T06:47:09+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Осознанность в том смысле, в каком я буду использовать этот термин, означает самоосмысление. Осознающий ум — тот, который, обладая чем-то, знает, чем он обладает. Это может быть эмоция, убеждение или иррациональное убеждение, предрасположенность, ощущение, воспоминание — все, что только может происходить или храниться в вашем мозге. Что творится в вашей голове? Ответ на этот вопрос — и важно, чтобы вы были точны — это то, что вы осознаете.
+Ханна Финли
+Remlin</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Живя_осознанно.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Живя_осознанно.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Живя_осознанно.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Бросая вызов сложностям</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:1e6d04d8-3884-11e8-8060-d3c2f04ece59</id>
+    <updated>2018-04-05T06:47:53+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Эта цепочка посвящена тому, как делать сложные или «невозможные» вещи.</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Бросая_вызов_сложностям.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Бросая_вызов_сложностям.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Бросая_вызов_сложностям.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Предсказуемо неправы</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:3c0737c0-3884-11e8-a1fb-73d21f1ee273</id>
+    <updated>2018-04-05T06:48:42+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"></div>
+    </content>
+    <link href="http://lesswrong.ru/files/Предсказуемо_неправы.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Предсказуемо_неправы.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Предсказуемо_неправы.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Против двоемыслия</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:530ef0f2-3884-11e8-9200-7bed92ef78f4</id>
+    <updated>2018-04-05T06:49:21+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Элиезер Юдковский</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Против_двоемыслия.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Против_двоемыслия.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Против_двоемыслия.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Против рационализации</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:8a9a2f8c-3884-11e8-b6dc-f313a9809fbe</id>
+    <updated>2018-04-05T06:50:54+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Рационализация — склонность человека подгонять рассуждения под уже выбранный ответ. В этой цепочке автор рассматривает сущность и виды рационализации.</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Против_рационализации.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Против_рационализации.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Против_рационализации.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Мистические ответы</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:bb6a3daa-3884-11e8-8856-73f540b0e84d</id>
+    <updated>2018-04-05T06:52:16+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">«Таинственные ответы» ставит вопрос: способна ли наука решить эти проблемы для нас. Ученые основывают свои модели на повторяемых экспериментах, а не на спекуляциях и слухах. Наука, так же, имеет великолепную репутацию в сравнении с историями, религией и… Да в сравнении с чем угодно имеет. Стоит ли волноваться по поводу «ложных» убеждений, ошибки подтверждения, ошибки знания задним числом и им подобных, если мы работаем с сообществом людей, желающих объяснять феномены, а не рассказывать трогательные истории?</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Мистические_ответы.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Мистические_ответы.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Мистические_ответы.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Замечая замешательсво</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:e1efc80a-3884-11e8-b0fc-53d3b3a155a1</id>
+    <updated>2018-04-05T06:53:21+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Оценка иррациональности была бы не полной без теории, описывающей рациональность, или если «теория» будет состоять из смутных трюизмов, без точного объяснительного механизма. Цепочка «Noticing Confusion» раскрывает вопрос: почему полезно основывать поведение на «рациональных» ожиданиях и как это ощущается изнутри.</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Замечая_замешательсво.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Замечая_замешательсво.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Замечая_замешательсво.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Чрезвычайно удобные оправдания</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:03984892-3885-11e8-8710-dba8fd0f1a65</id>
+    <updated>2018-04-05T06:54:17+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Первая цепочка статей в «Как действительно изменить свое мнение» - «Чрезвычайно удобные оправдания» фокусируется на вопросах, которые настолько четкие с точки зрения вероятностей, насколько это возможно. Оптимальные вычисления по Байесу часто трудно выполнимы, но ошибки вроде ошибки подтверждения существуют даже в случаях когда доступные свидетельства однозначны и у нас достаточно времени на обдумывание.</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Чрезвычайно_удобные_оправдания.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Чрезвычайно_удобные_оправдания.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Чрезвычайно_удобные_оправдания.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Ложные убеждения</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:324c4ba2-3885-11e8-803c-7bd517f5c185</id>
+    <updated>2018-04-05T06:55:36+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">В цепочке «Ложные убеждения» показана дискуссия об ожиданиях, которые расходятся с декларированными убеждениями.</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Ложные_убеждения.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Ложные_убеждения.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Ложные_убеждения.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+  <entry>
+    <title>Политика и рациональность</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:5c05e30e-3885-11e8-82e1-c778c1202754</id>
+    <updated>2018-04-05T06:56:46+03:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">Мэйнстримная политика, как и теледебаты, знаменита своими гневными, непродуктивными дискуссиями. Если задуматься, это кажется странным. Почему мы воспринимаем так близко к сердцу политические разногласия, если эффекты национальной политики так далеки от нас в пространстве и времени? Если уж на то пошло, почему мы не можем быть аккуратней со свидетельствами, когда имеем дело с важными для нас вопросами?</div>
+    </content>
+    <link href="http://lesswrong.ru/files/Политика_и_рациональность.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://lesswrong.ru/files/Политика_и_рациональность.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://lesswrong.ru/files/Политика_и_рациональность.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+
+
+  <entry>
+    <title>Гарри Поттер и методы рационального мышления</title>
+    <author>
+      <name>Элиезер Юдковский</name>
+    </author>
+    <id>urn:uuid:53bc45db-8d20-4b11-a8d7-35d60c4f712c</id>
+    <updated>2015-03-04T12:42:54+00:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p class="description">В 11 лет Гарри Поттер знаком с квантовой механикой, теорией вероятностей и другими полезными вещами. И главное — он очень рациональный, а это похлеще, чем укус радиоактивного паука.</p></div>
+    </content>
+    <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="http://opds-spec.org/image" type="image/jpeg" />
+    <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="x-stanza-cover-image" type="image/jpeg" />
+    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="http://opds-spec.org/thumbnail" type="image/jpeg" />
+    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="x-stanza-cover-image-thumbnail" type="image/jpeg" />
+    <link href="http://hpmor.ru/files/hpmor_ru.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://hpmor.ru/files/hpmor_ru.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="http://hpmor.ru/files/hpmor_ru.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+    <entry>
+    <title>Harry Potter and the Methods of Rationality</title>
+    <author>
+      <name>Eliezer Yudkowsky</name>
+    </author>
+    <id>urn:uuid:3794266c-a72d-4925-8e8a-09fb68a95002</id>
+    <updated>2015-03-04T12:42:54+00:00</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p class="description">The original English book.</p></div>
+    </content>
+    <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="http://opds-spec.org/image" type="image/jpeg" />
+    <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="x-stanza-cover-image" type="image/jpeg" />
+    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="http://opds-spec.org/thumbnail" type="image/jpeg" />
+    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="x-stanza-cover-image-thumbnail" type="image/jpeg" />
+    <link href="http://ikeran.org/rationality.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="http://ikeran.org/rationality.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+	--ifm-color-primary: #f21b4f;
+	--ifm-color-primary-dark: #e50d41;
+	--ifm-color-primary-darker: #d80c3e;
+	--ifm-color-primary-darkest: #b20a33;
+	--ifm-color-primary-light: #f33463;
+	--ifm-color-primary-lighter: #f4416c;
+	--ifm-color-primary-lightest: #f6678a;
+	--docusaurus-announcement-bar-height: 0px !important;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+    color: var(--ifm-color-secondary);
+}
+img{border-style:none;}
+div{box-sizing:border-box;}
+img{max-width:100%;}
+.fr{_display:inline;}
+.fr{float:right;}
+.ph3{padding-left:1rem;padding-right:1rem;}
+.hero--primary{color:var(--ifm-color-secondary);}
+.hero__title {
+    font-size: 4vh;
+}
+.docTitle_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem- {
+    font-size: 4vh !important;
+}

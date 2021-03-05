@@ -1,0 +1,20 @@
+{
+  "index_name": "prod_hpmor",
+  "start_urls": ["https://xn--c1asakg.xn--p1ai/"],
+  "stop_urls": ["https://xn--c1asakg.xn--p1ai/files/hpmor_ru.epub", 
+	"https://xn--c1asakg.xn--p1ai/files/hpmor_ru.epub", 
+	"https://xn--c1asakg.xn--p1ai/files/hpmor_ru.html", 
+	"https://xn--c1asakg.xn--p1ai/files/hpmor_ru.mobi", 
+	"https://xn--c1asakg.xn--p1ai/files/hpmor_ru.fb2", 
+	"https://xn--c1asakg.xn--p1ai/files/odps.xml"
+  ],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": "article h1",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "header p,section p,section ol,p"
+  }
+}
