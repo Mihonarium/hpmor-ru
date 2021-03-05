@@ -24,6 +24,7 @@ module.exports = {
       placeholder: 'Поиск',
       searchParameters: {}, // Optional (if provided by Algolia)
     },
+    hideableSidebar: true,
     navbar: {
       hideOnScroll: true,
       title: 'ГПиМРМ',
@@ -104,7 +105,6 @@ module.exports = {
       {
         docs: {
           routeBasePath: '/book/',
-          homePageId: '1/foreword',
           sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
@@ -121,6 +121,10 @@ module.exports = {
           {
             to: '/book/', // string
             from: '/book/1/foreword',
+          },
+          {
+            to: '/book/1/1', // string
+            from: '/book/1/',
           },
           {
             to: '/book/about', // string
