@@ -26,7 +26,7 @@ description: "Общая информация о книге и переводе"
 * [Сказ о науке и политике](http://lesswrong.ru/w/%D0%A1%D0%BA%D0%B0%D0%B7_%D0%BE_%D0%BD%D0%B0%D1%83%D0%BA%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B5).
 * Некоторые идеи, связанные с написанием книги, автор изложил в сочинении [Сокращенное руководство по умным персонажам](http://lesswrong.ru/w/%D0%A1%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_%D1%83%D0%BC%D0%BD%D1%8B%D0%BC_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B0%D0%BC). Внимание, в этом руководстве частично раскрывается сюжет «Методов рационального мышления».
 * [Rationality: From AI to Zombies (английский)](https://intelligence.org/rationality-ai-zombies/) — книга, в которой Юдковский собрал свои многочисленные эссе на тему самых разных аспектов рациональности. Поклонники создали удобный сайт для её чтения на английском — [Read the Sequences](https://www.readthesequences.com). Работа над русским переводом этой книги ведётся на сайте [lesswrong.ru](https://lesswrong.ru/node/285). 
-* [Inadequate Equilibria (английский)](https://equilibriabook.com). В этой книге Юдковский рассуждает о том, как заметить, что в некоторых областях наше общество устроено не оптимально, и может ли обычный человек этим воспользоваться. Можно ли сделать соцсеть, которая повторит успех Фейсбука? Можно ли найти лечение популярной болезни, незамеченное признанными экспертами? К книге примыкает эссе [Лицензия героя](https://lesswrong.ru/625), в котором Юдковский, помимо прочего, делится своими мыслями о написании "Гарри Поттера и методов рационального мышления".
+* [Inadequate Equilibria (английский)](https://equilibriabook.com). В этой книге Юдковский рассуждает о том, как заметить, что в некоторых областях наше общество устроено не оптимально, и может ли обычный человек этим воспользоваться. Можно ли сделать соцсеть, которая повторит успех Фейсбука? Можно ли найти лечение популярной болезни, незамеченное признанными экспертами? К книге примыкает эссе [Лицензия героя](https://lesswrong.ru/625), в котором Юдковский, помимо прочего, делится своими мыслями о написании «Гарри Поттера и методов рационального мышления».
 
 #### Производные произведения
 
@@ -52,9 +52,9 @@ description: "Общая информация о книге и переводе"
 
 Переведённые средства пойдут на оплату хостинга сайта и обновление текстов в случае обнаружения ошибок в переводе.
 
-<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D0%93%D0%9F%D0%B8%D0%9C%D0%A0%D0%9C.&targets-hint=&default-sum=900&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=41001700630108" width="450" height="216" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+<!-- <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D0%93%D0%9F%D0%B8%D0%9C%D0%A0%D0%9C.&targets-hint=&default-sum=900&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=41001700630108" width="450" height="216" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
 
-Также [можно использовать PayPal](https://www.paypal.me/umneem/).
+Также [можно использовать PayPal](https://www.paypal.me/umneem/). -->
 
 ### Контакты и ссылки
 
