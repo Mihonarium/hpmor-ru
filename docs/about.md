@@ -10,6 +10,17 @@ layout: "page"
 description: "Общая информация о книге и переводе"
 ---
 
+
+### Печатная версия
+
+На данный момент, одна компания предлагает печать на заказ в одном или нескольких экземплярах. Условия и цены смотрите по ссылке: [reglet.ru/pechat/hpmor](https://reglet.ru/pechat/hpmor/).
+
+Можно скачать [pdf для самостоятельной печати](https://гпмрм.рф/pdf/).
+
+Библиотеки могут получить бесплатные экземпляры, заполнив [эту форму для библиотек](https://гпмрм.рф/l).
+
+Победители некоторых олимпиад могут получить бесплатные экземпляры, заполнив [эту форму для олимпиаднков](https://docs.google.com/forms/d/e/1FAIpQLSev_QZev8xdidUdgvLizJfzTzr2FsMdBjQPMT_urFko7_bXJg/viewform).
+
 ### Переводчики
 
 Дмитрий Новицкий, Александр «Аларик» Бидерман, Глеб Мазурский, Виктор Гавриш, Мария «Sunmari» Шадрина, Светлана «chaika-che» Выприцкая, Юлия Ноздрина, Илья Nighthawk, Анна Новицкая, Лобарёв Юлий, StrangeCat, Sergcold, Любимова Мария, Polina, You_know_who,  baskakov\_dima, kle, Elspet, Asya, Dima, Kaplya smysla, Remlin, Constantine, Kuuff, Антон Скобин, Валя Гаврилова, Berik, Alexqwesa, Lavash, Denker, Алина Маркова (ellgue). Уважаемые переводчики, если вы переводили, но вас забыли включить в этот список, пожалуйста, заявите о себе и вас добавят. 
@@ -41,18 +52,13 @@ description: "Общая информация о книге и переводе"
 
 Вы можете скачать полную версию книги в нескольких форматах по ссылкам в меню наверху. Также вы можете использовать каталог OPDS для скачивания файлов книг напрямую из программ для чтения, ссылка также находится наверху.
 
-### Печатная версия
-
-На данный момент две компании предлагают напечатать книгу на заказ в одном или нескольких экземплярах. Условия и цены смотрите по ссылкам:
-
-* [reglet.ru/pechat/hpmor](https://reglet.ru/pechat/hpmor/)
-* [vk.com/hpmor_print](https://vk.com/hpmor_print)
-
 ### Помощь сайту
 
-Переведённые средства пойдут на оплату хостинга сайта и обновление текстов в случае обнаружения ошибок в переводе.
+См. [репозиторий на GitHub](https://github.com/Mihonarium/hpmor-ru).
 
-<!-- <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D0%93%D0%9F%D0%B8%D0%9C%D0%A0%D0%9C.&targets-hint=&default-sum=900&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=41001700630108" width="450" height="216" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+<!--Переведённые средства пойдут на оплату хостинга сайта и обновление текстов в случае обнаружения ошибок в переводе.
+
+<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D0%93%D0%9F%D0%B8%D0%9C%D0%A0%D0%9C.&targets-hint=&default-sum=900&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=41001700630108" width="450" height="216" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
 
 Также [можно использовать PayPal](https://www.paypal.me/umneem/). -->
 
