@@ -5,7 +5,6 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'log',
   favicon: 'img/favicon.ico',
-  trailingSlash: false,
   organizationName: 'Mihonarium', // Usually your GitHub org/user name.
   projectName: 'hpmor-ru', // Usually your repo name.
   themeConfig: {
