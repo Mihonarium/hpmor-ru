@@ -1,6 +1,6 @@
 module.exports = {
   title: "Гарри Поттер и методы рационального мышления", // !!! Если будешь добавлять anouncment, не забудь убрать из custom.css, что оно 0px.
-  tagline: 'Элиезер Юдковский (Less Wrong)',
+  tagline: 'Элиезер Юдковский',
   url: 'https://гпмрм.рф',
   baseUrl: '/',
   onBrokenLinks: 'log',
