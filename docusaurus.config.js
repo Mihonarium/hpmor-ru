@@ -52,19 +52,19 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Заказать на бумаге',
+          title: 'На бумаге',
           items: [
-            {
-              label: 'Reglet',
-              href: 'https://reglet.ru/pechat/hpmor',
-            },
-            {
-              label: 'Сообщество в ВК',
-              href: 'https://vk.com/hpmor_print',
-            },
             {
               label: 'Чат в TG',
               href: 'https://t.me/hpmorprint',
+            },
+            {
+              label: 'Для победителей олимпиад',
+              href: 'https://habr.com/ru/post/424049/',
+            },
+            {
+              label: 'Для библиотек',
+              href: 'https://xn--c1asakg.xn--p1ai/l',
             },
           ],
         },
