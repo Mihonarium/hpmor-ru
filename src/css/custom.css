@@ -64,6 +64,18 @@ html[data-theme='dark'] .alert--success {
 		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
 }
 
+.number-input {
+    border-radius: var(--ifm-code-border-radius);
+    color: var(--ifm-code-color);
+    font-family: var(--ifm-font-family-monospace);
+    font-size: var(--ifm-code-font-size);
+    border-color: var(--ifm-code-background);
+    width: 250px;
+    border-style: solid;
+    padding: var(--ifm-code-padding-vertical);
+    background: transparent;
+}
+
 .alert--info{
 	border: 0px;
     border-left: 4px solid;
