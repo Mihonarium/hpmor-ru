@@ -64,7 +64,7 @@ html[data-theme='dark'] .alert--success {
 		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
 }
 
-.number-input {
+.form-input {
     border-radius: var(--ifm-code-border-radius);
     color: var(--ifm-code-color);
     font-family: var(--ifm-font-family-monospace);
@@ -74,6 +74,11 @@ html[data-theme='dark'] .alert--success {
     border-style: solid;
     padding: var(--ifm-code-padding-vertical);
     background: transparent;
+}
+
+.star {
+    color: #d93025;
+    padding-left: 0.25em;
 }
 
 .alert--info{
