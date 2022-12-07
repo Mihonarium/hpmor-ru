@@ -18,7 +18,9 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-toastify": "^6.1.0",
+    "react-tooltip": "^4.2.11"
   },
   "browserslist": {
     "production": [
