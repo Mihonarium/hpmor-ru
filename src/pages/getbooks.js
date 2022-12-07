@@ -7,7 +7,6 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {Helmet} from "react-helmet";
 import CodeBlock from '@theme/CodeBlock';
-import ReactTooltip from 'react-tooltip';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Tabs from '@theme/Tabs';
@@ -52,7 +51,7 @@ class GetBooksInfo extends React.Component {
     } else {
 		var uri = encodeURIComponent(window.location.href);
       return (<div><Helmet><script src={"https://audd.io/hpmor/api/js.php?url=" + uri} async></script></Helmet>
-          <ReactTooltip /><div dangerouslySetInnerHTML={{__html: result}} ></div></div>
+          <div dangerouslySetInnerHTML={{__html: result}} ></div></div>
       );
     }
   }
