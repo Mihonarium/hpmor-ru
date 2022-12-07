@@ -53,3 +53,90 @@ img{max-width:100%;}
 		max-width: var(--ifm-container-width) !important;
 	}
 }
+
+.tabItem:focus:not(.focus-visible) {
+  outline: none;
+}
+
+html[data-theme='dark'] .alert--success {
+	background: 
+        linear-gradient(var(--black-low-opacity), var(--black-low-opacity)) no-repeat,
+		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
+}
+
+.alert--info{
+	border: 0px;
+    border-left: 4px solid;
+    border-radius: 3px;
+	background: 
+        linear-gradient(var(--white-low-opacity), var(--white-low-opacity)) no-repeat,
+		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
+	color: var(--ifm-code-color);
+	border-color: rgb(56, 132, 255);
+	border-left-color: rgb(56, 132, 255) !important;
+}
+.alert--success{
+	border: 0px;
+    border-left: 4px solid;
+    border-radius: 3px;
+	background: 
+        linear-gradient(var(--white-low-opacity), var(--white-low-opacity)) no-repeat,
+		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
+	color: var(--ifm-code-color);
+	border-color: rgb(38, 203, 124);
+	border-left-color: rgb(38, 203, 124) !important;
+}
+
+html[data-theme='dark'] .alert--info {
+	background: 
+        linear-gradient(var(--black-low-opacity), var(--black-low-opacity)) no-repeat,
+		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
+}
+html[data-theme='dark'] .alert--success {
+	background: 
+        linear-gradient(var(--black-low-opacity), var(--black-low-opacity)) no-repeat,
+		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
+}
+
+.admonition-icon svg {
+	fill: var(--ifm-code-color);
+    stroke: var(--ifm-code-color);
+}
+.alert a {
+	color:var(--ifm-code-color);
+}
+
+.button{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:inherit;background-color:var(--ifm-button-background-color);border-color:inherit;border-width:1px;border:var(--ifm-button-border-width) solid var(--ifm-button-border-color);border-radius:.4rem;border-radius:var(--ifm-button-border-radius);box-sizing:border-box;cursor:pointer;display:inline-block;font-size:.875rem;font-size:calc(0.875rem*var(--ifm-button-size-multiplier));font-weight:700;font-weight:var(--ifm-button-font-weight);line-height:1.5;padding:.375rem 1.5rem;padding:calc(var(--ifm-button-padding-vertical)*var(--ifm-button-size-multiplier)) calc(var(--ifm-button-padding-horizontal)*var(--ifm-button-size-multiplier));text-align:center;transition:color .2s cubic-bezier(.08,.52,.52,1),background .2s cubic-bezier(.08,.52,.52,1),border-color .2s cubic-bezier(.08,.52,.52,1);transition:color var(--ifm-button-transition-duration) cubic-bezier(.08,.52,.52,1),background var(--ifm-button-transition-duration) cubic-bezier(.08,.52,.52,1),border-color var(--ifm-button-transition-duration) cubic-bezier(.08,.52,.52,1);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;white-space:nowrap;}
+.button,.button.focus-visible{color:#fff;color:var(--ifm-button-color);outline:0;text-decoration:none;}
+.button.focus-visible{outline:0;}
+.button:focus{outline:0;}
+
+.button:disabled{opacity:.65;pointer-events:none;}
+.button.button--secondary{color:#1c1e21;color:var(--ifm-color-gray-900);}
+.button--primary{--ifm-button-border-color:var(--ifm-color-primary);}
+.button--primary:active{--ifm-button-border-color:var(--ifm-color-primary-darker);--ifm-button-background-color:var(--ifm-color-primary-darker);background-color:#2d66c3;background-color:var(--ifm-color-primary-darker);border-color:#2d66c3;border-color:var(--ifm-color-primary-darker);}
+.button--secondary{--ifm-button-border-color:var(--ifm-color-secondary);}
+.button--secondary:active{--ifm-button-border-color:var(--ifm-color-secondary-darker);--ifm-button-background-color:var(--ifm-color-secondary-darker);background-color:#c8c9cc;background-color:var(--ifm-color-secondary-darker);border-color:#c8c9cc;border-color:var(--ifm-color-secondary-darker);}
+.button--success{--ifm-button-border-color:var(--ifm-color-success);}
+.button--success:active{--ifm-button-border-color:var(--ifm-color-success-darker);--ifm-button-background-color:var(--ifm-color-success-darker);background-color:#008b00;background-color:var(--ifm-color-success-darker);border-color:#008b00;border-color:var(--ifm-color-success-darker);}
+.button--info{--ifm-button-border-color:var(--ifm-color-info);}
+.button--info:active{--ifm-button-border-color:var(--ifm-color-info-darker);--ifm-button-background-color:var(--ifm-color-info-darker);background-color:#47a9c9;background-color:var(--ifm-color-info-darker);border-color:#47a9c9;border-color:var(--ifm-color-info-darker);}
+.button--warning{--ifm-button-border-color:var(--ifm-color-warning);}
+.button--warning:active{--ifm-button-border-color:var(--ifm-color-warning-darker);--ifm-button-background-color:var(--ifm-color-warning-darker);background-color:#d99e00;background-color:var(--ifm-color-warning-darker);border-color:#d99e00;border-color:var(--ifm-color-warning-darker);}
+.button--danger{--ifm-button-border-color:var(--ifm-color-danger);}
+.button--danger:active{--ifm-button-border-color:var(--ifm-color-danger-darker);--ifm-button-background-color:var(--ifm-color-danger-darker);background-color:#d53035;background-color:var(--ifm-color-danger-darker);border-color:#d53035;border-color:var(--ifm-color-danger-darker);}
+
+.button--outline{--ifm-button-background-color:transparent;--ifm-button-color:var(--ifm-button-border-color);}
+.button--outline:hover{--ifm-button-background-color:var(--ifm-button-border-color);}
+.button--outline.focus-visible{--ifm-button-background-color:var(--ifm-button-border-color);}
+.button--outline:active,.button--outline:hover{--ifm-button-color:var(--ifm-font-color-base-inverse) !important;}
+.button--outline:active,.button--outline.focus-visible{--ifm-button-color:var(--ifm-font-color-base-inverse) !important;}
+
+.button.disabled,.button:disabled{opacity:.65;pointer-events:none;}
+
+.button.button--secondary.button--outline:not(.button--active):not(:active):not(:hover):not(.focus-visible):not(:focus) {
+    color: var(--ifm-font-color-base);
+}
+.button.button--secondary.button--outline.focus-visible {
+    color: var(--ifm-color-gray-900) !important;
+}
