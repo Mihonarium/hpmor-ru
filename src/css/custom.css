@@ -150,9 +150,9 @@ html[data-theme='dark'] .alert--success {
 
 .button.disabled,.button:disabled{opacity:.65;pointer-events:none;}
 
-.button.button--secondary.button--outline:not(.button--active):not(:active):not(:hover):not(.focus-visible):not(:focus) {
+/*.button.button--secondary.button--outline:not(.button--active):not(:active):not(:hover):not(.focus-visible):not(:focus) {
     color: var(--ifm-font-color-base);
-}
+}*/
 .button.button--secondary.button--outline.focus-visible {
     color: var(--ifm-color-gray-900) !important;
 }
