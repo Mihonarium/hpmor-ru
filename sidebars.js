@@ -1,11 +1,6 @@
 module.exports = {
   book: [
     {
-      type: 'link',
-      label: 'Заказать печать на бумаге',
-      href: 'https://reglet.ru/pechat/hpmor',
-    },
-    {
       type: 'category',
       label: 'Скачать',
       items: [
@@ -27,13 +22,39 @@ module.exports = {
 			{
 			  type: 'link',
 			  label: 'FB2',
-			  href: 'https://xn--c1asakg.xn--p1ai/files/hpmor_ru.fb2.zip',
+			  href: 'https://xn--c1asakg.xn--p1ai/files/hpmor_ru.fb2',
 			}, 
 			{
 			  type: 'link',
 			  label: 'ODPS',
 			  href: 'https://xn--c1asakg.xn--p1ai/files/opds.xml',
 			}, 
+		],
+	},
+    {
+      type: 'category',
+      label: 'На бумаге',
+      items: [
+			{
+			  type: 'link',
+			  label: 'Чат в TG',
+			  href: 'https://t.me/hpmorprint',
+			}, 
+			{
+			  type: 'link',
+			  label: 'Заказать печать',
+			  href: 'https://reglet.ru/pechat/hpmor',
+			}, 
+			{
+			  type: 'link',
+			  label: 'Для победителей олимпиад',
+			  href: 'https://habr.com/ru/post/424049/',
+			}, 
+			{
+			  type: 'link',
+			  label: 'Для библиотек',
+			  href: 'https://xn--c1asakg.xn--p1ai/l',
+			},
 		],
 	},
     {
