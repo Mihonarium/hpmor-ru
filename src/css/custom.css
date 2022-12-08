@@ -76,6 +76,18 @@ html[data-theme='dark'] .alert--success {
     background: transparent;
 }
 
+.track-code {
+    background-color: var(--ifm-code-background);
+    border-radius: var(--ifm-code-border-radius);
+    color: var(--ifm-code-color);
+    font-family: var(--ifm-font-family-monospace);
+    font-size: var(--ifm-code-font-size);
+    border-color: var(--ifm-code-background);
+    width: 350px;
+    border-style: unset;
+    padding: var(--ifm-code-padding-vertical);
+}
+
 .star {
     color: #d93025;
 }
