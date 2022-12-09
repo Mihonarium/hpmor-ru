@@ -29,7 +29,7 @@ module.exports = {
       hideOnScroll: true,
       title: 'ГПиМРМ',
       logo: {
-        alt: 'Обложка книги. Авторка - Татьяна Anforumeru. Лицензия: Creative Commons Attribution-ShareAlike 4.0 International',
+        alt: 'Логотип "HPMOR"',
         src: 'https://xn--c1asakg.xn--p1ai/img/favicon.ico',
       },
       items: [
@@ -96,7 +96,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Гарри Поттер и методы рационального мышления`,
+      copyright: `Copyright © ${new Date().getFullYear()} Гарри Поттер и методы рационального мышления. В соответствии с разрешениями Джоан Роулинг и Элиезера Юдковского.`,
     },
   },
   presets: [
