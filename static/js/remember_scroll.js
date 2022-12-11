@@ -60,7 +60,7 @@ function onDocumentReady() {
         if(lastPage) {
             confirm("Продолжить чтение главы?", function(continueReading) {
                 if(continueReading) {
-                    window.location.href = "https://xn--c1asakg.xn--p1ai/book/"+lastPage+"/";
+                    window.location.href = "https://xn--c1asakg.xn--p1ai/book/"+lastPage;
                 }
             });
         }
