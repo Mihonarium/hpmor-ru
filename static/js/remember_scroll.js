@@ -39,21 +39,19 @@ function onDocumentReady() {
         var lastPage = localStorage.getItem("hpmor-last-page");
         var lastScroll = localStorage.getItem("hpmor-scroll-page_"+currentPage);
         if(lastScroll) {
-            confirm("Продолжить чтение с последней позиции?", function(continueReading) {
+            confirm("Перемотать, где читали?", function(continueReading) {
                 if(continueReading) {
                     document.documentElement.scrollTop = lastScroll;
                 }
             });
         }
-    }
-    // on scroll, save the scroll position
-    window.addEventListener('scroll', function() {
-        if(document.URL.includes("/book/1/")) {
+        // on scroll, save the scroll position
+        window.addEventListener('scroll', function() {
             var currentPage = document.URL.split("/book/")[1];
             localStorage.setItem("hpmor-scroll-page_"+currentPage, document.documentElement.scrollTop);
             localStorage.setItem("hpmor-last-page", currentPage);
-        }
-    });
+        });
+    }
     
     if(document.URL == 'https://xn--c1asakg.xn--p1ai/') {
         var lastPage = localStorage.getItem("hpmor-last-page");
