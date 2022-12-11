@@ -66,7 +66,12 @@ function onDocumentReady() {
         if(lastPage && lastPage != undefined) {
             confirm("Продолжить чтение главы?", function(continueReading) {
                 if(continueReading) {
-                    window.location.href = "https://xn--c1asakg.xn--p1ai/book/"+lastPage;
+                    if(lastPage == undefined) {
+                        lastPage = localStorage.getItem("hpmor-last-page");
+                    }
+                    if (lastPage != undefined) {
+                        window.location.href = 'https://xn--c1asakg.xn--p1ai/book/'+lastPage;
+                    }
                 }
             });
         }
