@@ -37,6 +37,9 @@ function confirm(text, callback) {
         }
     }, 100);
 }
+
+var loadedScroll = false;
+
 function onDocumentReady() {
     // on load, ask the user whether they want to scroll to the last position
     if(document.URL.includes("/book/1/")) {
@@ -48,6 +51,15 @@ function onDocumentReady() {
                 if(continueReading) {
                     document.documentElement.scrollTop = lastScroll;
                 }
+            });
+        }
+        jf(!loadedScroll) {
+            loadedScroll = true;
+            window.addEventListener('scroll', function() {
+                if(!document.URL.includes("/book/1/")) return;
+                var currentPage = document.URL.split("/book/")[1];
+                localStorage.setItem("hpmor-scroll-page_"+currentPage, document.documentElement.scrollTop);
+                localStorage.setItem("hpmor-last-page", currentPage);
             });
         }
     }
@@ -71,13 +83,6 @@ function onDocumentReady() {
 
 if (document.readyState !== 'loading') {
     onDocumentReady();
-    // on scroll, save the scroll position
-    window.addEventListener('scroll', function() {
-        if(!document.URL.includes("/book/1/")) return;
-        var currentPage = document.URL.split("/book/")[1];
-        localStorage.setItem("hpmor-scroll-page_"+currentPage, document.documentElement.scrollTop);
-        localStorage.setItem("hpmor-last-page", currentPage);
-    });
 } else {
     document.addEventListener('DOMContentLoaded', onDocumentReady);
 }
