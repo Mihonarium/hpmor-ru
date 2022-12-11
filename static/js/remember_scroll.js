@@ -1,16 +1,3 @@
-
-// if the document is not loaded yet, wait for it to load
-if (document.readyState !== 'loading') {
-    // the document is already ready
-    // so we can just run the code
-    onDocumentReady();
-} else {
-    // the document is not ready yet
-    // so we need to wait for the document to load
-    document.addEventListener('DOMContentLoaded', onDocumentReady);
-}
-
-
 function confirm(text, callback) {
     // add a question inplace of navbar__brand
     var brand = document.querySelector('.navbar__brand');
@@ -65,4 +52,10 @@ function onDocumentReady() {
             localStorage.setItem("hpmor-last-page", currentPage);
         }
     });
+}
+
+if (document.readyState !== 'loading') {
+    onDocumentReady();
+} else {
+    document.addEventListener('DOMContentLoaded', onDocumentReady);
 }
