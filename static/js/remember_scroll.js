@@ -29,7 +29,7 @@ function confirm(text, callback) {
         buttons.parentNode.removeChild(buttons);
         callback(false);
     });
-    
+
     var oldHref = window.location.href;
     setInterval(function() {
         if(oldHref != window.location.href) {
@@ -46,7 +46,7 @@ function onDocumentReady() {
         var currentPage = document.URL.split("/book/")[1];
         var lastPage = localStorage.getItem("hpmor-last-page");
         var lastScroll = localStorage.getItem("hpmor-scroll-page_"+currentPage);
-        if(lastScroll) {
+        if(lastScroll && lastScroll > 150) {
             confirm("Перемотать, где читали?", function(continueReading) {
                 if(continueReading) {
                     document.documentElement.scrollTop = lastScroll;
@@ -60,7 +60,7 @@ function onDocumentReady() {
             localStorage.setItem("hpmor-last-page", currentPage);
         });
     }
-    
+
     if(document.URL == 'https://xn--c1asakg.xn--p1ai/') {
         var lastPage = localStorage.getItem("hpmor-last-page");
         if(lastPage) {
