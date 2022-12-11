@@ -1,3 +1,5 @@
+
+
 function confirm(text, callback) {
     // add a question inplace of navbar__brand
     var brand = document.querySelector('.navbar__brand');
@@ -52,6 +54,17 @@ function onDocumentReady() {
             localStorage.setItem("hpmor-last-page", currentPage);
         }
     });
+    
+    if(document.URL == 'https://xn--c1asakg.xn--p1ai/') {
+        var lastPage = localStorage.getItem("hpmor-last-page");
+        if(lastPage) {
+            confirm("Продолжить чтение главы?", function(continueReading) {
+                if(continueReading) {
+                    window.location.href = "https://xn--c1asakg.xn--p1ai/book/"+lastPage+"/";
+                }
+            });
+        }
+    }
 }
 
 if (document.readyState !== 'loading') {
@@ -59,3 +72,12 @@ if (document.readyState !== 'loading') {
 } else {
     document.addEventListener('DOMContentLoaded', onDocumentReady);
 }
+
+// if the location changes without page reloading via react, call onDocumentReady
+var oldHref = window.location.href;
+setInterval(function() {
+    if(oldHref != window.location.href) {
+        oldHref = window.location.href;
+        onDocumentReady();
+    }
+}, 100);
