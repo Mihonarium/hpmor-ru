@@ -1,3 +1,19 @@
+
+var inputs = document.querySelectorAll('input[type="radio"]');
+for (var i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener('change', function() {
+        var parent = this.parentNode.parentNode;
+        var buttons = parent.querySelectorAll('label');
+        for (var j = 0; j < buttons.length; j++) {
+            buttons[j].classList.remove('button--primary');
+            buttons[j].classList.add('button--secondary');
+        }
+        this.parentNode.classList.remove('button--secondary');
+        this.parentNode.classList.add('button--primary');
+    });
+}
+
+
 function confirm(text, callback) {
     // add a question inplace of navbar__brand
     var brand = document.querySelector('.navbar__brand');
@@ -34,9 +50,13 @@ function confirm(text, callback) {
     setInterval(function() {
         if(oldHref != window.location.href) {
             oldHref = window.location.href;
-            question.parentNode.removeChild(question);
-            brand.style.display = 'flex';
-            buttons.parentNode.removeChild(buttons);
+            if(question.parentNode != null) {
+                question.parentNode.removeChild(question);
+                brand.style.display = 'flex';
+                // remove the buttons
+                buttons.parentNode.removeChild(buttons);
+                clearInterval(this);
+            }
         }
     }, 100);
 }
@@ -69,7 +89,7 @@ function onDocumentReady() {
                     if(lastPage == undefined) {
                         lastPage = localStorage.getItem("hpmor-last-page");
                     }
-                    if (lastPage != undefined) {
+                    if (lastPage != 'undefined') {
                         window.location.href = 'https://xn--c1asakg.xn--p1ai/book/'+lastPage;
                     }
                 }
