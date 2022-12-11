@@ -138,4 +138,10 @@ module.exports = {
       },
     ],
   ],
+  scripts: [
+	  {
+	  	src: 'https://xn--c1asakg.xn--p1ai/js/remember_scroll.js',
+		async: true,
+	  },
+  ],
 };
