@@ -1,5 +1,3 @@
-
-
 function confirm(text, callback) {
     // add a question inplace of navbar__brand
     var brand = document.querySelector('.navbar__brand');
@@ -31,6 +29,16 @@ function confirm(text, callback) {
         buttons.parentNode.removeChild(buttons);
         callback(false);
     });
+    
+    var oldHref = window.location.href;
+    setInterval(function() {
+        if(oldHref != window.location.href) {
+            oldHref = window.location.href;
+            question.parentNode.removeChild(question);
+            brand.style.display = 'flex';
+            buttons.parentNode.removeChild(buttons);
+        }
+    }, 100);
 }
 function onDocumentReady() {
     // on load, ask the user whether they want to scroll to the last position
