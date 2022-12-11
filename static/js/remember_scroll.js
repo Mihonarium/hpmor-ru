@@ -1,19 +1,3 @@
-
-var inputs = document.querySelectorAll('input[type="radio"]');
-for (var i = 0; i < inputs.length; i++) {
-    inputs[i].addEventListener('change', function() {
-        var parent = this.parentNode.parentNode;
-        var buttons = parent.querySelectorAll('label');
-        for (var j = 0; j < buttons.length; j++) {
-            buttons[j].classList.remove('button--primary');
-            buttons[j].classList.add('button--secondary');
-        }
-        this.parentNode.classList.remove('button--secondary');
-        this.parentNode.classList.add('button--primary');
-    });
-}
-
-
 function confirm(text, callback) {
     // add a question inplace of navbar__brand
     var brand = document.querySelector('.navbar__brand');
