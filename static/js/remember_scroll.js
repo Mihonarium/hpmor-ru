@@ -53,7 +53,7 @@ function onDocumentReady() {
                 }
             });
         }
-        jf(!loadedScroll) {
+        if(!loadedScroll) {
             loadedScroll = true;
             window.addEventListener('scroll', function() {
                 if(!document.URL.includes("/book/1/")) return;
