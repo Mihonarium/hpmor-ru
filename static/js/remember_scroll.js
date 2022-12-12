@@ -25,7 +25,7 @@ function confirm(text, callback) {
 
     var oldHref = window.location.href;
     setInterval(function() {
-        if(oldHref != window.location.href) {
+        if(oldHref !== window.location.href) {
             oldHref = window.location.href;
             if(question.parentNode != null) {
                 question.parentNode.removeChild(question);
@@ -43,10 +43,12 @@ var loadedScroll = false;
 function onDocumentReady() {
     // on load, ask the user whether they want to scroll to the last position
     if(document.URL.includes("/book/1/")) {
-        var currentPage = document.URL.split("/book/")[1];
-        var lastPage = localStorage.getItem("hpmor-last-page");
+        var currentPage = document.URL.split("/book/")[1].split("#")[0];
         var lastScroll = localStorage.getItem("hpmor-scroll-page_"+currentPage);
-        if(lastScroll && lastScroll > 150) {
+        if(document.URL.includes("#continue")) {
+            document.documentElement.scrollTop = lastScroll;
+        }
+        else if(lastScroll && lastScroll > 150) {
             confirm("Перемотать, где читали?", function(continueReading) {
                 if(continueReading) {
                     document.documentElement.scrollTop = lastScroll;
@@ -54,7 +56,7 @@ function onDocumentReady() {
             });
         }
         if(!loadedScroll) {
-            loadedScroll = true;
+            // loadedScroll = true;
             window.addEventListener('scroll', function() {
                 if(!document.URL.includes("/book/1/")) return;
                 var currentPage = document.URL.split("/book/")[1];
@@ -66,14 +68,14 @@ function onDocumentReady() {
 
     if(document.URL == 'https://xn--c1asakg.xn--p1ai/') {
         var lastPage = localStorage.getItem("hpmor-last-page");
-        if(lastPage && lastPage != undefined) {
+        if(lastPage && lastPage !== 'undefined') {
             confirm("Продолжить чтение главы?", function(continueReading) {
                 if(continueReading) {
-                    if(lastPage == undefined) {
+                    if(lastPage === undefined) {
                         lastPage = localStorage.getItem("hpmor-last-page");
                     }
                     if (lastPage != 'undefined') {
-                        window.location.href = 'https://xn--c1asakg.xn--p1ai/book/'+lastPage;
+                        window.location.href = 'https://xn--c1asakg.xn--p1ai/book/'+lastPage + '#continue';
                     }
                 }
             });
