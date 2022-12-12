@@ -40,16 +40,25 @@ function confirm(text, callback) {
 
 var loadedScroll = false;
 
+function getCurrentPage() {
+    let currentPage = document.URL.split("/book/")[1].split("#")[0];
+    // if currentPage ends with a slash, remove it
+    if(currentPage.endsWith("/")) {
+        currentPage = currentPage.slice(0, -1);
+    }
+    return currentPage;
+}
+
 function onDocumentReady() {
     // on load, ask the user whether they want to scroll to the last position
     if(document.URL.includes("/book/1/")) {
-        let currentPage = document.URL.split("/book/")[1].split("#")[0];
+        let currentPage = getCurrentPage();
         let lastScroll = localStorage.getItem("hpmor-scroll-page_"+currentPage);
         if(document.URL.includes("#continue")) {
             document.documentElement.scrollTop = lastScroll;
         }
         else if(lastScroll && lastScroll > 150) {
-            confirm("Перемотать, где читали?", function(continueReading) {
+            confirm("Продолжить чтение?", function(continueReading) {
                 if(continueReading) {
                     document.documentElement.scrollTop = lastScroll;
                 }
@@ -59,7 +68,7 @@ function onDocumentReady() {
             // loadedScroll = true;
             window.addEventListener('scroll', function() {
                 if(!document.URL.includes("/book/1/")) return;
-                let currentPage = document.URL.split("/book/")[1].split("#")[0];
+                let currentPage = getCurrentPage();
                 localStorage.setItem("hpmor-scroll-page_"+currentPage, document.documentElement.scrollTop);
                 localStorage.setItem("hpmor-last-page", currentPage);
             });
@@ -69,7 +78,7 @@ function onDocumentReady() {
     if(document.URL == 'https://xn--c1asakg.xn--p1ai/') {
         let lastPage = localStorage.getItem("hpmor-last-page");
         if(lastPage && lastPage !== 'undefined') {
-            confirm("Продолжить чтение главы?", function(continueReading) {
+            confirm("Продолжить чтение?", function(continueReading) {
                 if(continueReading) {
                     if(lastPage === undefined) {
                         lastPage = localStorage.getItem("hpmor-last-page");
