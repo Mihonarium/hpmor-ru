@@ -64,6 +64,16 @@ html[data-theme='dark'] .alert--success {
 		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
 }
 
+@font-face {
+    font-family: 'Academy';
+    src: url('/fonts/Academy.woff2') format('woff2'),
+        url('/fonts/Academy.woff') format('woff'),
+	url('/fonts/Academy.ttf'), format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .form-input {
     border-radius: var(--ifm-code-border-radius);
     color: var(--ifm-code-color);
