@@ -43,8 +43,8 @@ var loadedScroll = false;
 function onDocumentReady() {
     // on load, ask the user whether they want to scroll to the last position
     if(document.URL.includes("/book/1/")) {
-        var currentPage = document.URL.split("/book/")[1].split("#")[0];
-        var lastScroll = localStorage.getItem("hpmor-scroll-page_"+currentPage);
+        let currentPage = document.URL.split("/book/")[1].split("#")[0];
+        let lastScroll = localStorage.getItem("hpmor-scroll-page_"+currentPage);
         if(document.URL.includes("#continue")) {
             document.documentElement.scrollTop = lastScroll;
         }
@@ -59,7 +59,7 @@ function onDocumentReady() {
             // loadedScroll = true;
             window.addEventListener('scroll', function() {
                 if(!document.URL.includes("/book/1/")) return;
-                var currentPage = document.URL.split("/book/")[1];
+                let currentPage = document.URL.split("/book/")[1].split("#")[0];
                 localStorage.setItem("hpmor-scroll-page_"+currentPage, document.documentElement.scrollTop);
                 localStorage.setItem("hpmor-last-page", currentPage);
             });
@@ -67,7 +67,7 @@ function onDocumentReady() {
     }
 
     if(document.URL == 'https://xn--c1asakg.xn--p1ai/') {
-        var lastPage = localStorage.getItem("hpmor-last-page");
+        let lastPage = localStorage.getItem("hpmor-last-page");
         if(lastPage && lastPage !== 'undefined') {
             confirm("Продолжить чтение главы?", function(continueReading) {
                 if(continueReading) {
