@@ -17,6 +17,7 @@ module.exports = {
       trackingID: 'UA-122331611-1',
       anonymizeIP: false,
     },
+    image: 'img/2.png',
     algolia: {
       apiKey: '7f0279b8ea182402cc0e643f9526b2e1',
       appId: 'DS6E1UUJN6',
