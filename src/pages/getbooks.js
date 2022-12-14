@@ -63,7 +63,7 @@ function GetBooks() {
   //const context = useDocusaurusContext();
   return (
     <Layout
-      title="Оформить заказ ГПиМРМ"
+      title="Получить экземпляр"
       permalink="/"
       description="Страница для оформления бесплатного получения трёхтомника «Гарри Поттера и методов рационального мышления»."><ToastContainer />
       <main className="container margin-vert--lg">
