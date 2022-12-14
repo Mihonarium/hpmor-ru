@@ -24,7 +24,7 @@ class GetBooksInfo extends React.Component {
 
   componentDidMount() {
 	  window.toast = toast;
-    fetch("https://audd.io/hpmor/api/html.php?url="+encodeURIComponent(window.location.href))
+    fetch("https://api.xn--c1asakg.xn--p1ai/html.php?url="+encodeURIComponent(window.location.href))
       .then(res => res.text())
       .then(
         (result) => {
@@ -50,7 +50,7 @@ class GetBooksInfo extends React.Component {
       return <div>Loading...</div>;
     } else {
 		var uri = encodeURIComponent(window.location.href);
-      return (<div><Helmet><script src={"https://audd.io/hpmor/api/js.php?url=" + uri} async></script></Helmet>
+      return (<div><Helmet><script src={"https://api.xn--c1asakg.xn--p1ai/js.php?url=" + uri} async></script></Helmet>
           <div dangerouslySetInnerHTML={{__html: result}} ></div></div>
       );
     }
