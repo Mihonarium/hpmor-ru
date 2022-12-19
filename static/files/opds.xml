@@ -9,8 +9,8 @@
   <id>calibre-all:timestamp</id>
   <icon>http://lesswrong.ru/favicon.ico</icon>
   <updated>2015-03-04T12:42:54+00:00</updated>
-  <link type="application/atom+xml;type=feed;profile=opds-catalog" rel="start" href="http://hpmor.ru/files/odps.xml"/>
-  <link type="application/atom+xml;type=feed;profile=opds-catalog" rel="up" href="http://hpmor.ru/files/odps.xml"/>
+  <link type="application/atom+xml;type=feed;profile=opds-catalog" rel="start" href="https://xn--c1asakg.xn--p1ai/files/opds.xml"/>
+  <link type="application/atom+xml;type=feed;profile=opds-catalog" rel="up" href="hthttps://xn--c1asakg.xn--p1ai/files/opds.xml"/>
 
   <entry>
     <title>Свежий взгляд на вещи</title>
@@ -222,11 +222,11 @@ Remlin</div>
     </content>
     <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="http://opds-spec.org/image" type="image/jpeg" />
     <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="x-stanza-cover-image" type="image/jpeg" />
-    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="http://opds-spec.org/thumbnail" type="image/jpeg" />
-    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="x-stanza-cover-image-thumbnail" type="image/jpeg" />
-    <link href="http://hpmor.ru/files/hpmor_ru.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
-    <link href="http://hpmor.ru/files/hpmor_ru.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
-    <link href="http://hpmor.ru/files/hpmor_ru.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
+    <link href="https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg" rel="http://opds-spec.org/thumbnail" type="image/jpeg" />
+    <link href="https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg" rel="x-stanza-cover-image-thumbnail" type="image/jpeg" />
+    <link href="https://xn--c1asakg.xn--p1ai/files/hpmor_ru.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
+    <link href="https://xn--c1asakg.xn--p1ai/files/hpmor_ru.fb2.zip" rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip"/>
+    <link href="https://xn--c1asakg.xn--p1ai/files/hpmor_ru.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
   </entry>
     <entry>
     <title>Harry Potter and the Methods of Rationality</title>
@@ -240,8 +240,8 @@ Remlin</div>
     </content>
     <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="http://opds-spec.org/image" type="image/jpeg" />
     <link href="http://hpmor.com/MethodsofRationality_Yudkowsky.jpg?9d7bd4" rel="x-stanza-cover-image" type="image/jpeg" />
-    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="http://opds-spec.org/thumbnail" type="image/jpeg" />
-    <link href="http://hpmor.ru/files/cover_tn.jpeg" rel="x-stanza-cover-image-thumbnail" type="image/jpeg" />
+    <link href="https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg" rel="http://opds-spec.org/thumbnail" type="image/jpeg" />
+    <link href="https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg" rel="x-stanza-cover-image-thumbnail" type="image/jpeg" />
     <link href="http://ikeran.org/rationality.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" />
     <link href="http://ikeran.org/rationality.mobi" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook"/>
   </entry>
