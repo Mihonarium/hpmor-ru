@@ -48,7 +48,7 @@ module.exports = {
 			{
 			  type: 'link',
 			  label: 'Для победителей олимпиад',
-			  href: 'https://habr.com/ru/post/424049/',
+			  href: 'https://xn--c1asakg.xn--p1ai/getbooks/?olymp',
 			}, 
 			{
 			  type: 'link',
