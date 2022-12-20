@@ -136,6 +136,10 @@ html[data-theme='dark'] .alert--success {
 		linear-gradient(var(--ifm-code-background), var(--ifm-code-background)) no-repeat;
 }
 
+html[data-theme=dark] .hero {
+    --ifm-hero-background-color: var(--ifm-background-surface-color) !important;
+}
+
 .admonition-icon svg {
 	fill: var(--ifm-code-color);
     stroke: var(--ifm-code-color);
