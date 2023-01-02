@@ -96,6 +96,7 @@ html[data-theme='dark'] .alert--success {
     width: 350px;
     border-style: unset;
     padding: var(--ifm-code-padding-vertical);
+    margin-bottom: 5px;
 }
 
 .star {
