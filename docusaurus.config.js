@@ -84,6 +84,10 @@ module.exports = {
           title: 'Информация',
           items: [
             {
+              label: 'Читать',
+              href: 'https://xn--c1asakg.xn--p1ai/book/',
+            },
+            {
               label: 'О книге и переводе',
               href: 'https://xn--c1asakg.xn--p1ai/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/',
             },
