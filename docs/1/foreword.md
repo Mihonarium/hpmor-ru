@@ -9,7 +9,7 @@ lastmod: "2018-12-10"
 slug: "/"
 ---
 
-<nav class="pagination-nav" aria-label="Blog list page navigation" style="margin-bottom: 10px;"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/book/1/1"><div class="pagination-nav__sublabel">Пропустить предисловие</div><div class="pagination-nav__label">Глава 1. Крайне маловероятный день »</div></a></div></nav>
+<nav class="pagination-nav" aria-label="Blog list page navigation" style={{margin-bottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/book/1/1"><div class="pagination-nav__sublabel">Пропустить предисловие</div><div class="pagination-nav__label">Глава 1. Крайне маловероятный день »</div></a></div></nav>
 
 Ещё в процессе написания «Гарри Поттер и методы рационального мышления» занимали первые места по популярности в мире среди всех фанфиков по Гарри Поттеру (место варьировалось между первым и третьим в зависимости от метода подсчёта — по числу отзывов или числу подписчиков). С тех пор, впрочем, у них появились и другие конкуренты. Эта история обрела поклонников во многих университетах мира, а 14 марта 2015 года, в день выхода последней, 122 главы, читатели организовали десятки вечеринок в честь этого события. Можно даже сказать, что этот фанфик породил собственный небольшой жанр, именуемый «рационалистское творчество». И сейчас у вас в руках печатное издание русского перевода — творение, в создание которого вложили свою любовь множество людей: [здесь надо указать имена переводчиков, оформителей, верстальщиков].
 
