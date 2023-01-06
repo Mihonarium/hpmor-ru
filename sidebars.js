@@ -37,24 +37,19 @@ module.exports = {
       items: [
 			{
 			  type: 'link',
-			  label: 'Чат в TG',
-			  href: 'https://t.me/hpmorprint',
-			}, 
-			{
-			  type: 'link',
-			  label: 'Заказать печать',
-			  href: 'https://reglet.ru/pechat/hpmor',
-			}, 
-			{
-			  type: 'link',
 			  label: 'Для победителей олимпиад',
-			  href: 'https://xn--c1asakg.xn--p1ai/getbooks/?olymp',
+			  href: 'https://xn--c1asakg.xn--p1ai/olymp',
 			}, 
 			{
 			  type: 'link',
 			  label: 'Для библиотек',
 			  href: 'https://xn--c1asakg.xn--p1ai/l',
 			},
+			{
+			  type: 'link',
+			  label: 'Чат в TG',
+			  href: 'https://t.me/hpmorprint',
+			}, 
 		],
 	},
     {
