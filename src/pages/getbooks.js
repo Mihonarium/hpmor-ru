@@ -65,7 +65,7 @@ function GetBooks() {
     <Layout
       title="Получить экземпляр"
       permalink="/"
-      description="Страница для оформления бесплатного получения трёхтомника «Гарри Поттера и методов рационального мышления»."><ToastContainer />
+      description="Получить бесплатный трёхтомник «Гарри Поттера и методов рационального мышления»."><ToastContainer />
       <main className="container margin-vert--lg">
 		<GetBooksInfo />
 		<div className="col col--3"></div>
