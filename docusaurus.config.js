@@ -56,17 +56,17 @@ const config = {
         },
       items: [
         {href: '/book/', label: 'Читать', position: 'right'},
-        {href: 'https://гпмрм.рф/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/', label: 'О книге и переводе', position: 'right'},
-        {href: 'https://гпмрм.рф/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/', label: 'Аудиокнига', position: 'right'},
+        {href: '/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/', label: 'О книге и переводе', position: 'right'},
+        {href: '/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/', label: 'Аудиокнига', position: 'right'},
         {href: 'https://lesswrong.ru/forum/index.php?board=3.0', label: 'Форум', position: 'right'},
         {
           label: 'Скачать', position: 'right',
           items: [
-			{href: 'https://гпмрм.рф/files/hpmor_ru.epub', label: 'EPUB'},
-			{href: 'https://гпмрм.рф/files/hpmor_ru.html', label: 'HTML'},
-			{href: 'https://гпмрм.рф/files/hpmor_ru.mobi', label: 'MOBI'},
-			{href: 'https://гпмрм.рф/files/hpmor_ru.fb2', label: 'FB2'},
-			{href: 'https://гпмрм.рф/files/opds.xml', label: 'OPDS'},
+			{href: '/files/hpmor_ru.epub', label: 'EPUB'},
+			{href: '/files/hpmor_ru.html', label: 'HTML'},
+			{href: '/files/hpmor_ru.mobi', label: 'MOBI'},
+			{href: '/files/hpmor_ru.fb2', label: 'FB2'},
+			{href: '/files/opds.xml', label: 'OPDS'},
           ],
         },
       ],
@@ -83,22 +83,22 @@ const config = {
             },
             {
               label: 'Для победителей олимпиад',
-              href: 'https://habr.com/ru/post/424049/',
+              href: '/olymp',
             },
             {
               label: 'Для библиотек',
-              href: 'https://гпмрм.рф/l',
+              href: '/l',
             },
           ],
         },
         {
           title: 'Скачать',
           items: [
-			{href: 'https://гпмрм.рф/files/hpmor_ru.epub', label: 'EPUB'},
-			{href: 'https://гпмрм.рф/files/hpmor_ru.html', label: 'HTML'},
-			{href: 'https://гпмрм.рф/files/hpmor_ru.mobi', label: 'MOBI'},
-			{href: 'https://гпмрм.рф/files/hpmor_ru.fb2', label: 'FB2'},
-			{href: 'https://гпмрм.рф/files/opds.xml', label: 'OPDS'},
+			{href: '/files/hpmor_ru.epub', label: 'EPUB'},
+			{href: '/files/hpmor_ru.html', label: 'HTML'},
+			{href: '/files/hpmor_ru.mobi', label: 'MOBI'},
+			{href: '/files/hpmor_ru.fb2', label: 'FB2'},
+			{href: '/files/opds.xml', label: 'OPDS'},
           ],
         },
         {
@@ -106,15 +106,15 @@ const config = {
           items: [
             {
               label: 'Читать',
-              href: 'https://гпмрм.рф/book/',
+              href: '/book/',
             },
             {
               label: 'О книге и переводе',
-              href: 'https://гпмрм.рф/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/',
+              href: '/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/',
             },
             {
               label: 'Аудиокнига',
-              href: 'https://гпмрм.рф/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/',
+              href: '/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/',
             },
             {
               label: 'Форум',
