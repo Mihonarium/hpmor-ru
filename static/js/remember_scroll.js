@@ -96,10 +96,10 @@ function onDocumentReady() {
 }
 
 if (document.readyState !== 'loading') {
-    setTimeout(onDocumentReady, 500);
+    setTimeout(onDocumentReady, 200);
 } else {
     document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(onDocumentReady, 500);
+        setTimeout(onDocumentReady, 200);
     });
 }
 
