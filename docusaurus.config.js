@@ -69,6 +69,7 @@ const config = {
       appId: 'DS6E1UUJN6',
       indexName: 'prod_hpmor',
       placeholder: 'Поиск',
+      contextualSearch: false,
       searchParameters: {}, // Optional (if provided by Algolia)
     },
 	docs: {
