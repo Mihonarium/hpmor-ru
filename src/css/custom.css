@@ -25,6 +25,8 @@
     	--ifm-code-padding-vertical: 0.2rem;
     	--ifm-pre-background: var(--ifm-color-emphasis-100);
     	--ifm-pre-border-radius: var(--ifm-code-border-radius);
+	
+	--ifm-alert-shadow: none;
 }
 
 .docusaurus-highlight-code-line {
@@ -156,6 +158,10 @@ html[data-theme=dark] .hero {
 }
 .alert a {
 	color:var(--ifm-code-color);
+}
+
+.alert {
+	--ifm-code-background: var(--ifm-color-emphasis-200) !important;
 }
 
 .no-word-wrap {
