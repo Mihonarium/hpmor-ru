@@ -83,7 +83,7 @@ const config = {
             },
             {
               label: 'Для победителей олимпиад',
-              href: 'https://habr.com/ru/post/424049/',
+              href: 'https://habr.com/ru/post/711928/',
             },
             {
               label: 'Для библиотек',
