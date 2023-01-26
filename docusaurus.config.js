@@ -1,23 +1,69 @@
-module.exports = {
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: "Гарри Поттер и методы рационального мышления", // !!! Если будешь добавлять anouncment, не забудь убрать из custom.css, что оно 0px.
   tagline: 'Элиезер Юдковский',
   url: 'https://гпмрм.рф',
   baseUrl: '/',
   onBrokenLinks: 'log',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Mihonarium', // Usually your GitHub org/user name.
   projectName: 'hpmor-ru', // Usually your repo name.
-  themeConfig: {
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'ru',
+    locales: ['ru'],
+  },
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+		googleAnalytics: {
+		  trackingID: 'UA-122331611-1',
+		  anonymizeIP: false,
+		},
+      }),
+    ],
+  ],
+
+  themeConfig:
+    ({
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    googleAnalytics: {
-      trackingID: 'UA-122331611-1',
-      anonymizeIP: false,
-    },
-    image: 'img/2.png',
     algolia: {
       apiKey: '7f0279b8ea182402cc0e643f9526b2e1',
       appId: 'DS6E1UUJN6',
@@ -25,14 +71,19 @@ module.exports = {
       placeholder: 'Поиск',
       searchParameters: {}, // Optional (if provided by Algolia)
     },
-    hideableSidebar: true,
-    navbar: {
+	docs: {
+		sidebar: {
+			hideable: true,
+		},
+	},
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+      navbar: {
       hideOnScroll: true,
       title: 'ГПиМРМ',
-      logo: {
-        alt: 'Логотип "HPMOR"',
-        src: 'https://xn--c1asakg.xn--p1ai/img/favicon.ico',
-      },
+        logo: {
+			alt: 'Логотип "HPMOR"',
+			src: 'https://xn--c1asakg.xn--p1ai/img/favicon.ico',
+        },
       items: [
         {href: 'https://xn--c1asakg.xn--p1ai/book/', label: 'Читать', position: 'right'},
         {href: 'https://xn--c1asakg.xn--p1ai/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/', label: 'О книге и переводе', position: 'right'},
@@ -62,7 +113,7 @@ module.exports = {
             },
             {
               label: 'Для победителей олимпиад',
-              href: 'https://habr.com/ru/post/711928/',
+              href: 'https://habr.com/ru/post/424049/',
             },
             {
               label: 'Для библиотек',
@@ -104,7 +155,11 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Гарри Поттер и методы рационального мышления. В соответствии с разрешениями Джоан Роулинг и Элиезера Юдковского.`,
     },
-  },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+    }),
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -151,3 +206,5 @@ module.exports = {
 	  },
   ],
 };
+
+module.exports = config;

@@ -187,3 +187,20 @@ html[data-theme=dark] .hero {
 .button.button--secondary.button--outline.focus-visible {
     color: var(--ifm-color-gray-900) !important;
 }
+
+.navbar__link svg {
+    display: none;
+}
+.dropdown__link svg {
+    display: none;
+}
+.menu__link svg {
+    display: none;
+}
+.footer__link-item svg {
+    display: none;
+}
+
+.breadcrumbs {
+    display: none;
+}
