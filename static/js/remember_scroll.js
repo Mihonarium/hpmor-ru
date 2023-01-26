@@ -3,11 +3,14 @@ function confirm(text, callback) {
     var question = document.createElement('div');
     question.classList.add('navbar__brand');
     question.setAttribute('data-original-brand', brand.innerHTML);
+    question.setAttribute('id', "continue_reading");
     question.innerHTML = text;
     brand.parentNode.insertBefore(question, brand);
     brand.style.display = 'none';
+    
     var buttons = document.createElement('div');
     buttons.classList.add('navbar__brand');
+    buttons.setAttribute('id', "continue_reading_buttons");
     buttons.innerHTML = '<button class="button button--primary" style="margin-right:5px;">Да</button><button class="button button--secondary">Нет</button>';
     brand.parentNode.insertBefore(buttons, brand);
     buttons.querySelector('button').addEventListener('click', function() {
@@ -93,9 +96,11 @@ function onDocumentReady() {
 }
 
 if (document.readyState !== 'loading') {
-    onDocumentReady();
+    setTimeout(onDocumentReady, 500);
 } else {
-    document.addEventListener('DOMContentLoaded', onDocumentReady);
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(onDocumentReady, 500);
+    });
 }
 
 // if the location changes without page reloading via react, call onDocumentReady
@@ -103,6 +108,17 @@ var oldHref = window.location.href;
 setInterval(function() {
     if(oldHref != window.location.href) {
         oldHref = window.location.href;
+        
+        question = document.getElementById('continue_reading');
+        buttons = document.getElementById('continue_reading_buttons');
+        if(question.parentNode != null) {
+            question.parentNode.removeChild(question);
+            brand.style.display = 'flex';
+            // remove the buttons
+            buttons.parentNode.removeChild(buttons);
+            clearInterval(this);
+        }
+        
         onDocumentReady();
     }
 }, 100);
