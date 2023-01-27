@@ -45,9 +45,9 @@ class GetBooksInfo extends React.Component {
   render() {
     const { error, isLoaded, result } = this.state;
     if (error) {
-      return <div>Error: {error.message}. Please try reloading the page.</div>;
+      return <div>Ошибка: {error.message}. Попробуйте перезагрузить страницу. Если это не помогло, пожалуйста, напишите на hpmor@contact.ms.</div>;
     } else if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <div>Загрузка...</div>;
     } else {
 		var uri = encodeURIComponent(window.location.href);
       return (<div><Helmet><script src={"https://api.xn--c1asakg.xn--p1ai/js.php?url=" + uri} async></script></Helmet>
