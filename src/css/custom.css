@@ -219,3 +219,7 @@ html[data-theme=dark] .hero {
 .breadcrumbs {
     display: none;
 }
+
+.alert p:last-child {
+    margin: 0;
+}
