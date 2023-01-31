@@ -36,7 +36,7 @@ description: "Общая информация о книге и переводе"
 * [Dark Lord's Answer (английский)](https://www.amazon.com/Dark-Lords-Answer-Eliezer-Yudkowsky-ebook/dp/B01N9IPGWZ/).
 * [Сказ о науке и политике](http://lesswrong.ru/w/%D0%A1%D0%BA%D0%B0%D0%B7_%D0%BE_%D0%BD%D0%B0%D1%83%D0%BA%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B5).
 * Некоторые идеи, связанные с написанием книги, автор изложил в сочинении [Сокращенное руководство по умным персонажам](http://lesswrong.ru/w/%D0%A1%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_%D1%83%D0%BC%D0%BD%D1%8B%D0%BC_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B0%D0%BC). Внимание, в этом руководстве частично раскрывается сюжет «Методов рационального мышления».
-* [Rationality: From AI to Zombies (английский)](https://intelligence.org/rationality-ai-zombies/) — книга, в которой Юдковский собрал свои многочисленные эссе на тему самых разных аспектов рациональности. Поклонники создали удобный сайт для её чтения на английском — [Read the Sequences](https://www.readthesequences.com). Работа над русским переводом этой книги ведётся на сайте [lesswrong.ru](https://lesswrong.ru/node/285). 
+* [Rationality: From AI to Zombies (английский)](https://intelligence.org/rationality-ai-zombies/) — книга, в которой Юдковский собрал свои многочисленные эссе на тему самых разных аспектов рациональности. Поклонники создали удобный сайт для её чтения на английском — [Read the Sequences](https://www.readthesequences.com); также доступна короткая версия, [Sequences Highlights](https://www.lesswrong.com/highlights). Работа над русским переводом этой книги ведётся на сайте [lesswrong.ru](https://lesswrong.ru/w). 
 * [Inadequate Equilibria (английский)](https://equilibriabook.com). В этой книге Юдковский рассуждает о том, как заметить, что в некоторых областях наше общество устроено не оптимально, и может ли обычный человек этим воспользоваться. Можно ли сделать соцсеть, которая повторит успех Фейсбука? Можно ли найти лечение популярной болезни, незамеченное признанными экспертами? К книге примыкает эссе [Лицензия героя](https://lesswrong.ru/625), в котором Юдковский, помимо прочего, делится своими мыслями о написании «Гарри Поттера и методов рационального мышления».
 
 #### Производные произведения
@@ -46,7 +46,7 @@ description: "Общая информация о книге и переводе"
 #### Прочее
 
 * [Интервью с некоторыми из переводчиков HPMOR](https://docs.google.com/document/d/1O96Mly0tdFPHjDvuNQDyE7D5NBg6M6ieqCFrX-4TTZE/pub).
-* Если вы хотите сами познакомиться с рациональным мышлением, вот [список рекомендуемой литературы](http://umneem.org/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D1%83%D0%B5%D0%BC%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/ "Список рекомендуемой литературы по рациональному мышлению").
+* Если вы хотите сами познакомиться с рациональным мышлением, рекомендуем [Рациональность: от ИИ до зомби](https://lesswrong.ru/w) Элиезера Юдковского.
 
 ### Дополнительные форматы
 
@@ -56,17 +56,11 @@ description: "Общая информация о книге и переводе"
 
 См. [репозиторий на GitHub](https://github.com/Mihonarium/hpmor-ru).
 
-<!--Переведённые средства пойдут на оплату хостинга сайта и обновление текстов в случае обнаружения ошибок в переводе.
-
-<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D0%93%D0%9F%D0%B8%D0%9C%D0%A0%D0%9C.&targets-hint=&default-sum=900&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=41001700630108" width="450" height="216" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
-
-Также [можно использовать PayPal](https://www.paypal.me/umneem/). -->
-
 ### Контакты и ссылки
 
 -   Вы можете связаться с администраторами сайта по адресу <hpmor@contact.ms>.
--   Англоязычный сайт с книгой — <http://hpmor.com/>. Сайт автора — <http://yudkowsky.net/>
--   Обсудить книгу вы можете на [форуме](https://lesswrong.ru/forum/index.php/board,3.0.html "Форум для обсуждения книги «Гарри Поттер и Методы рационального мышления»").
+-   Англоязычный сайт с книгой — <https://www.lesswrong.com/hpmor>. Сайт автора — <http://yudkowsky.net/>
+-   Обсудить книгу вы можете в [чате в Telegram](https://t.me/hpmor_chat) или на [форуме](https://lesswrong.ru/forum/index.php/board,3.0.html "Форум для обсуждения книги «Гарри Поттер и Методы рационального мышления»").
 
 ***
 
