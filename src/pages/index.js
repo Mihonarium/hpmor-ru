@@ -76,6 +76,9 @@ function Home() {
               Читать
             </Link>
           </div>
+          <p className="navbar__toggle">
+            (ссылки на скачивание — в меню)
+          </p>
         </div>
       </header>
       <main>
