@@ -24,7 +24,7 @@ class GetBooksInfo extends React.Component {
 
   componentDidMount() {
 	  window.toast = toast;
-    fetch("https://ctf.xn--c1asakg.xn--p1ai/html?url="+encodeURIComponent(window.location.href), {
+    fetch("https://ctf.xn--c1asakg.xn--p1ai/?url="+encodeURIComponent(window.location.href), {
       credentials: "include",
     })
       .then(res => res.text())
