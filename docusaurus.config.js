@@ -84,11 +84,15 @@ const config = {
             },
             {
               label: 'Для победителей олимпиад',
-              href: 'https://habr.com/ru/post/711928/',
+              href: 'https://гпмрм.рф/olymp',
             },
             {
               label: 'Для библиотек',
-              href: 'https://гпмрм.рф/l',
+              href: 'https://гпмрм.рф/libraries',
+            },
+            {
+              label: 'Напечатать самостоятельно',
+              href: 'https://гпмрм.рф/pdf',
             },
           ],
         },
