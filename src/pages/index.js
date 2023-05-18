@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Head from '@docusaurus/Head';
 
 /*const features = [
   {
@@ -62,6 +63,30 @@ function Home() {
     <Layout
 	  permalink="/"
       description="Элиезер Юдковский">
+	  <Head>
+	    <script type="application/ld+json">
+		{
+			"@context":"https://schema.org",
+			"@type":"Book",
+			"image":"https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg",
+			"name":"Гарри Поттер и Методы Рационального Мышления",
+			"description":"",
+			"genre":"Зарубежное фэнтези, Фанфик",
+			"author":{
+				"@type":"Thing",
+				"name":"Элиезер Юдковский"
+			},
+			"publisher":{"@type":"Thing","name":"HPMOR"},
+			"aggregateRating":{
+				"@type":"AggregateRating",
+				"ratingValue":4.9,
+				"ratingCount":7278,
+				"bestRating":"5",
+				"worstRating":"1"
+			}
+		}
+	</script>
+	  </Head>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <p className="hero__subtitle">{siteConfig.tagline}</p>
