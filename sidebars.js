@@ -29,6 +29,11 @@ module.exports = {
 			  label: 'ODPS',
 			  href: 'https://xn--c1asakg.xn--p1ai/files/opds.xml',
 			}, 
+			{
+			  type: 'link',
+			  label: 'Вёрстка для печати',
+			  href: 'https://xn--c1asakg.xn--p1ai/pdf',
+			}, 
 		],
 	},
     {
