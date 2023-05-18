@@ -70,20 +70,53 @@ function Home() {
 			"@type":"Book",
 			"image":"https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg",
 			"name":"Гарри Поттер и Методы Рационального Мышления",
-			"description":"",
+	  		"alternateName":"Гарри Поттер и методы рационального мышления",
+	  		"numberOfPages":1896,
+  			"accessMode": ["textual"],
+			  "accessModeSufficient": [
+			    {
+			      "@type": "ItemList",
+			      "itemListElement": ["textual"],
+			      "description": "Text of the book and the interface"
+			    }
+			  ],
+			  "accessibilityControl": [
+			    "fullKeyboardControl",
+			    "fullMouseControl"
+			  ],
+			  "accessibilityHazard": [
+			    "noFlashingHazard",
+			    "noMotionSimulationHazard",
+			    "noSoundHazard"
+			  ],
+	  		"about":"Петуния вышла замуж не за Дурсля, а за университетского профессора, и Гарри попал в гораздо более благоприятную среду. У него были частные учителя, дискуссии с отцом, а главное — книги, сотни и тысячи научных и фантастических книг. В 11 лет Гарри знаком с квантовой механикой, когнитивной психологией, теорией вероятностей и другими вещами. Но Гарри не просто вундеркинд, у него есть загадочная Тёмная сторона, которая явно накладывает свой отпечаток на его мышление",
+			"description":"Петуния вышла замуж не за Дурсля, а за университетского профессора, и Гарри попал в гораздо более благоприятную среду. У него были частные учителя, дискуссии с отцом, а главное — книги, сотни и тысячи научных и фантастических книг. В 11 лет Гарри знаком с квантовой механикой, когнитивной психологией, теорией вероятностей и другими вещами. Но Гарри не просто вундеркинд, у него есть загадочная Тёмная сторона, которая явно накладывает свой отпечаток на его мышление",
 			"genre":"Зарубежное фэнтези, Фанфик",
-			"author":{
-				"@type":"Thing",
-				"name":"Элиезер Юдковский"
+			"author": {
+			    "@type": "Person",
+			    "givenName": "Элиезер",
+			    "familyName": "Юдковский",
+				"sameAs":"https://www.wikidata.org/wiki/Q704195"
+			}
+			"publisher":{"@type":"Organization","name":"HPMOR (LessWrong)"},
+			"translationOfWork":{
+				"@type":"Book",
+				"name":"Harry Potter and the Methods of Rationality",
+				"author": {
+				    "@type": "Person",
+				    "givenName": "Eliezer",
+				    "familyName": "Yudkowsky",
+					"sameAs": "https://www.wikidata.org/wiki/Q22162553"
+				}
 			},
-			"publisher":{"@type":"Thing","name":"HPMOR"},
 			"aggregateRating":{
 				"@type":"AggregateRating",
 				"ratingValue":4.9,
 				"ratingCount":7278,
 				"bestRating":"5",
 				"worstRating":"1"
-			}
+			},
+			"sameAs": "https://www.wikidata.org/wiki/Q22162553"
 		})}
 	</script>
 	  </Head>
