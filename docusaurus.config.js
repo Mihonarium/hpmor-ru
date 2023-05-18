@@ -67,6 +67,7 @@ const config = {
 			{href: 'https://гпмрм.рф/files/hpmor_ru.mobi', label: 'MOBI'},
 			{href: 'https://гпмрм.рф/files/hpmor_ru.fb2', label: 'FB2'},
 			{href: 'https://гпмрм.рф/files/opds.xml', label: 'OPDS'},
+			{href: 'https://гпмрм.рф/pdf', label: 'Вёрстка для печати'},
           ],
         },
       ],
