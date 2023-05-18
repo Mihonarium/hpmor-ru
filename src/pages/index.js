@@ -97,7 +97,7 @@ function Home() {
 			    "givenName": "Элиезер",
 			    "familyName": "Юдковский",
 				"sameAs":"https://www.wikidata.org/wiki/Q704195"
-			}
+			},
 			"publisher":{"@type":"Organization","name":"HPMOR (LessWrong)"},
 			"translationOfWork":{
 				"@type":"Book",
