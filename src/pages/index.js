@@ -65,7 +65,7 @@ function Home() {
       description="Элиезер Юдковский">
 	  <Head>
 	    <script type="application/ld+json">
-		{
+		{JSON.stringify({
 			"@context":"https://schema.org",
 			"@type":"Book",
 			"image":"https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg",
@@ -84,7 +84,7 @@ function Home() {
 				"bestRating":"5",
 				"worstRating":"1"
 			}
-		}
+		})}
 	</script>
 	  </Head>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
