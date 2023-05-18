@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Head from '@docusaurus/Head';
 
 /*const features = [
   {
@@ -62,6 +63,63 @@ function Home() {
     <Layout
 	  permalink="/"
       description="Элиезер Юдковский">
+	  <Head>
+	    <script type="application/ld+json">
+		{JSON.stringify({
+			"@context":"https://schema.org",
+			"@type":"Book",
+			"image":"https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg",
+			"name":"Гарри Поттер и Методы Рационального Мышления",
+	  		"alternateName":"Гарри Поттер и методы рационального мышления",
+	  		"numberOfPages":1896,
+  			"accessMode": ["textual"],
+			  "accessModeSufficient": [
+			    {
+			      "@type": "ItemList",
+			      "itemListElement": ["textual"],
+			      "description": "Text of the book and the interface"
+			    }
+			  ],
+			  "accessibilityControl": [
+			    "fullKeyboardControl",
+			    "fullMouseControl"
+			  ],
+			  "accessibilityHazard": [
+			    "noFlashingHazard",
+			    "noMotionSimulationHazard",
+			    "noSoundHazard"
+			  ],
+	  		"about":"Петуния вышла замуж не за Дурсля, а за университетского профессора, и Гарри попал в гораздо более благоприятную среду. У него были частные учителя, дискуссии с отцом, а главное — книги, сотни и тысячи научных и фантастических книг. В 11 лет Гарри знаком с квантовой механикой, когнитивной психологией, теорией вероятностей и другими вещами. Но Гарри не просто вундеркинд, у него есть загадочная Тёмная сторона, которая явно накладывает свой отпечаток на его мышление",
+			"description":"Петуния вышла замуж не за Дурсля, а за университетского профессора, и Гарри попал в гораздо более благоприятную среду. У него были частные учителя, дискуссии с отцом, а главное — книги, сотни и тысячи научных и фантастических книг. В 11 лет Гарри знаком с квантовой механикой, когнитивной психологией, теорией вероятностей и другими вещами. Но Гарри не просто вундеркинд, у него есть загадочная Тёмная сторона, которая явно накладывает свой отпечаток на его мышление",
+			"genre":"Зарубежное фэнтези, Фанфик",
+			"author": {
+			    "@type": "Person",
+			    "givenName": "Элиезер",
+			    "familyName": "Юдковский",
+				"sameAs":"https://www.wikidata.org/wiki/Q704195"
+			},
+			"publisher":{"@type":"Organization","name":"HPMOR (LessWrong)"},
+			"translationOfWork":{
+				"@type":"Book",
+				"name":"Harry Potter and the Methods of Rationality",
+				"author": {
+				    "@type": "Person",
+				    "givenName": "Eliezer",
+				    "familyName": "Yudkowsky",
+					"sameAs": "https://www.wikidata.org/wiki/Q22162553"
+				}
+			},
+			"aggregateRating":{
+				"@type":"AggregateRating",
+				"ratingValue":4.9,
+				"ratingCount":7278,
+				"bestRating":"5",
+				"worstRating":"1"
+			},
+			"sameAs": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%80%D1%80%D0%B8_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_%D0%B8_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B_%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F"
+		})}
+	</script>
+	  </Head>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <p className="hero__subtitle">{siteConfig.tagline}</p>
