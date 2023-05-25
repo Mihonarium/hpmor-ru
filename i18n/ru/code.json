@@ -1,0 +1,11 @@
+{
+  "theme.docs.sidebar.collapseButtonAriaLabel": {"message":"Свернуть оглавление"},
+  "theme.docs.sidebar.collapseButtonTitle": {"message":"Свернуть оглавление"},
+  "theme.docs.sidebar.expandButtonAriaLabel": {"message":"Развернуть оглавление"},
+  "theme.docs.sidebar.expandButtonTitle": {"message":"Развернуть оглавление"},  
+  "theme.NotFound.p2": {"message":"Пожалуйста, сообщите владельцу сайта, с которого вы сюда перешли, что ссылка не работает или свяжитесь с нами."},
+  "theme.docs.paginator.navAriaLabel": {"message":"Навигация по книге"},
+  "theme.docs.sidebar.navAriaLabel": {"message":"Оглавление книги"},
+  "theme.docs.paginator.next": {"message":"Следующая глава"},
+  "theme.docs.paginator.previous": {"message":"Предыдущая глава"}
+}
