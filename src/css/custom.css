@@ -42,7 +42,8 @@ img{border-style:none;}
 div{box-sizing:border-box;}
 img{max-width:100%;}
 .fr{_display:inline;}
-.fr{float:right;}
+.fr{float:right;}	
+.img_container{width: 347px;height: 500px;}
 .ph3{padding-left:1rem;padding-right:1rem;}
 .hero--primary{color:var(--ifm-color-secondary);}
 .hero__title {
