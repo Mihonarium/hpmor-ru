@@ -80,7 +80,7 @@ const config = {
           title: 'На бумаге',
           items: [
             {
-              label: 'Чат в TG',
+              label: 'Чат в Telegram',
               href: 'https://t.me/hpmorprint',
             },
             {
@@ -123,8 +123,8 @@ const config = {
               href: 'https://гпмрм.рф/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/',
             },
             {
-              label: 'Форум',
-              href: 'https://lesswrong.ru/forum/index.php?board=3.0',
+              label: 'Обсуждение книги',
+              href: 'https://t.me/hpmor_chat',
             },
           ],
         },
