@@ -39,6 +39,7 @@ const config = {
       indexName: 'prod_hpmor',
       placeholder: 'Поиск',
       contextualSearch: false,
+      searchPagePath: 'search',
       searchParameters: {}, // Optional (if provided by Algolia)
     },
 	docs: {
