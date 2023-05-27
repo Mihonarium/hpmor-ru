@@ -88,7 +88,7 @@ const config = {
               href: 'https://гпмрм.рф/olymp',
             },
             {
-              label: 'Для библиотек',
+              label: 'Библиотекам',
               href: 'https://гпмрм.рф/libraries',
             },
             {
