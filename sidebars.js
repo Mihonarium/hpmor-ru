@@ -47,12 +47,12 @@ module.exports = {
 			}, 
 			{
 			  type: 'link',
-			  label: 'Для библиотек',
+			  label: 'Библиотекам',
 			  href: 'https://xn--c1asakg.xn--p1ai/l',
 			},
 			{
 			  type: 'link',
-			  label: 'Чат в TG',
+			  label: 'Чат в Telegram',
 			  href: 'https://t.me/hpmorprint',
 			}, 
 			{
