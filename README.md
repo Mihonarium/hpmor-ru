@@ -13,25 +13,20 @@
 
 ### Страницы
 
-[index.js](src/pages/index.js) — главная страница.
-
-[/getbooks/](src/pages/getbooks.js) получает и отображает страницы из API, в остальном сайт статичен.
-
-В [docs](docs) лежат markdown-странички книги и дополнительной информации.
+- [Главная страница](src/pages/index.js)
+- [/getbooks/](src/pages/getbooks.js) (получает и отображает страницы из API, в остальном сайт статичен)
+- [docs](docs): markdown-странички с книгой и дополнительной информацией.
 
 ### Скрипты
 
-[remember_scroll.js](static/js/remember_scroll.js) предлагает продолжить чтение с последнего места.
+- [remember_scroll.js](static/js/remember_scroll.js) предлагает продолжить чтение с последнего места.
 
 ### Конфиги и кастомизация
 
-[docusaurus.config.js](docusaurus.config.js) — конфиг сайта.
-
-[sidebars.js](sidebars.js) — конфиг оглавления, отображающегося на страницах.
-
-[custom.css](src/css/custom.css) — кастомные стили.
-
-[i18n/ru/code.json](i18n/ru/code.json) — кастомные названия (например, главы вместо страниц документации).
+- [docusaurus.config.js](docusaurus.config.js) — конфиг сайта.
+- [sidebars.js](sidebars.js) — конфиг оглавления, отображающегося на страницах.
+- [src/css/custom.css](src/css/custom.css) — кастомные стили.
+- [i18n/ru/code.json](i18n/ru/code.json) — кастомные названия (например, главы вместо страниц документации).
 
 ## Как помочь
 
