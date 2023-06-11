@@ -57,8 +57,8 @@ const config = {
         },
       items: [
         {href: '/book/', label: 'Читать', position: 'right'},
-        {href: 'https://гпмрм.рф/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/', label: 'О книге и переводе', position: 'right'},
-        {href: 'https://гпмрм.рф/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/', label: 'Аудиокнига', position: 'right'},
+        {href: 'https://гпмрм.рф/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5', label: 'О книге и переводе', position: 'right'},
+        {href: 'https://гпмрм.рф/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0', label: 'Аудиокнига', position: 'right'},
         {href: 'https://lesswrong.ru/forum/index.php?board=3.0', label: 'Форум', position: 'right'},
         {
           label: 'Скачать', position: 'right',
@@ -116,11 +116,11 @@ const config = {
             },
             {
               label: 'О книге и переводе',
-              href: 'https://гпмрм.рф/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5/',
+              href: 'https://гпмрм.рф/%D0%BE-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B5',
             },
             {
               label: 'Аудиокнига',
-              href: 'https://гпмрм.рф/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/',
+              href: 'https://гпмрм.рф/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0',
             },
             {
               label: 'Обсуждение книги',
