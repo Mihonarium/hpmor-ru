@@ -48,7 +48,7 @@ module.exports = {
 			{
 			  type: 'link',
 			  label: 'Библиотекам',
-			  href: 'https://xn--c1asakg.xn--p1ai/l',
+			  href: 'https://xn--c1asakg.xn--p1ai/libraries',
 			},
 			{
 			  type: 'link',
