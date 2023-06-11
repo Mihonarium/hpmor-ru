@@ -168,10 +168,6 @@ const config = {
             from: '/book/1/',
           },
           {
-            to: '/book/about', // string
-            from: '/о-книге-и-переводе',
-          },
-          {
             to: '/book/audiobook', // string
             from: '/аудиокнига',
           },
