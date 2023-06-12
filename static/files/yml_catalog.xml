@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2020-11-22T14:37:38+03:00">
+    <shop>
+        <name>Гарри Поттер и методы рационального мышления</name>
+        <company>ИП Самин М.И.</company>
+        <url>https://xn--c1asakg.xn--p1ai/</url>
+        <platform>Docusaurus</platform>
+		<currencies>
+			<currency id="RUR" rate="1"/>
+		</currencies>
+        <categories>
+            <category id="1">Книги</category>
+			<category id="2" parentId="1">Зарубежное фэнтези</category>
+			<category id="3" parentId="1">Фанфик</category>
+        </categories>
+		<delivery>true</delivery>
+        <delivery-options>
+            <option cost="0" days="1-7"/>
+        </delivery-options>
+        <pickup-options>
+            <option cost="0" days="1-7"/>
+        </pickup-options>
+        <offers>
+            <offer id="1">
+                <name>Трёхтомник «Гарри Поттер и методы рационального мышления»</name>
+                <vendor>Гарри Поттер и методы рационального мышления</vendor>
+                <vendorCode>knigi1</vendorCode>
+                <url>https://xn--c1asakg.xn--p1ai/</url>
+                <price>0</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>2</categoryId>
+                <picture>https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg</picture>
+                <description>
+                    <![CDATA[          
+                        <p>Трёхтомник научно-популярного фанфика Элиезера Юдковского. Доступен в электронном виде и на бумаге.</p>
+                    ]]>
+                </description>                
+                <available>true</available>
+                <sales_notes>Для получения на бумаге необходимо соответствовать условиям.</sales_notes>
+                <weight>2.5</weight>
+                <dimensions>16/16/22</dimensions>
+                <tn-ved-code>4901990000</tn-ved-code>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
