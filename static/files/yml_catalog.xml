@@ -25,8 +25,8 @@
                 <name>Трёхтомник «Гарри Поттер и методы рационального мышления»</name>
                 <vendor>Гарри Поттер и методы рационального мышления</vendor>
                 <vendorCode>knigi1</vendorCode>
-                <url>https://xn--c1asakg.xn--p1ai/</url>
-                <price>0</price>
+                <url>https://xn--c1asakg.xn--p1ai/getbooks/?order</url>
+                <price>3500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
                 <picture>https://xn--c1asakg.xn--p1ai/img/hpmor_cover.jpg</picture>
@@ -36,7 +36,7 @@
                     ]]>
                 </description>                
                 <available>true</available>
-                <sales_notes>Для получения на бумаге необходимо соответствовать условиям.</sales_notes>
+                <sales_notes>Победители олимпиад и библиотеки получают книги бесплатно.</sales_notes>
                 <weight>2.5</weight>
                 <dimensions>16/16/22</dimensions>
                 <tn-ved-code>4901990000</tn-ved-code>
