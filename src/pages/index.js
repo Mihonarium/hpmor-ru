@@ -112,7 +112,7 @@ function Home() {
 			"aggregateRating":{
 				"@type":"AggregateRating",
 				"ratingValue":4.9,
-				"ratingCount":8511,
+				"ratingCount":8972,
 				"bestRating":"5",
 				"worstRating":"1"
 			},
