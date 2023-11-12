@@ -54,6 +54,9 @@ const config = {
         logo: {
 			alt: 'Логотип "HPMOR"',
 			src: 'https://гпмрм.рф/img/favicon.ico',
+			src: 'https://гпмрм.рф/img/favicon.ico',
+			height: 32,
+			width: 32,
         },
       items: [
         {href: '/book/', label: 'Читать', position: 'right'},
