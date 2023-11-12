@@ -224,3 +224,8 @@ html[data-theme=dark] .hero {
 .alert p:last-child {
     margin: 0;
 }
+
+.navbar__logo img {
+    width: 32px;
+    height: 32px;
+}
