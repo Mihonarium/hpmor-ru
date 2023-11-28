@@ -146,6 +146,9 @@ const config = {
         docs: {
           routeBasePath: '/book/',
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: ({ docPath }) => {
+            return `https://holocron.so/github/pr/Mihonarium/hpmor-ru/master/editor/docs/${docPath}`
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
