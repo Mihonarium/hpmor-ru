@@ -1,7 +1,7 @@
 ---
 id: "about"
 title: "О книге и переводе"
-date: 2022-12-17
+date: 2023-12-06
 menu: 
     main:
         weight: -120
