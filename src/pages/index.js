@@ -7,38 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Head from '@docusaurus/Head';
 
-/*const features = [
-  {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];*/
 const features = [];
 
 function Feature({imageUrl, title, description}) {
@@ -112,7 +80,7 @@ function Home() {
 			"aggregateRating":{
 				"@type":"AggregateRating",
 				"ratingValue":4.9,
-				"ratingCount":9011,
+				"ratingCount":9570,
 				"bestRating":"5",
 				"worstRating":"1"
 			},
@@ -154,7 +122,7 @@ function Home() {
 <li class="list f5 w-100 underline-hover nl1">
 Читать онлайн на этом сайте: начните с <a href="/book/">предисловия</a> или <a href="/book/1/1/">первой главы</a>. Сайт сохраняет последнюю позицию чтения; доступен тёмный режим.
 </li></ul></p>
-<p>На бумаге можно напечатать книги самостоятельно по <a href="/pdf">нашей вёрстке</a>. Библиотеки могут получить бесплатные бумажные экземпляры, заполнив <a href="/libraries">форму для библиотек</a>. Победители некоторых олимпиад могут бесплатно получить бумажные книги, заполнив <a href="/getbooks/?olymp">форму для олимпиадников</a>.</p>
+<p>На бумаге можно напечатать книги самостоятельно по <a href="/pdf">нашей вёрстке</a> или получить готовый экземпляр <a href="/getbooks/?order">при пожертвовании</a>. Библиотеки могут получить бесплатные бумажные экземпляры, заполнив <a href="/libraries">форму для библиотек</a>. Победители некоторых олимпиад могут бесплатно получить бумажные книги, заполнив <a href="/getbooks/?olymp">форму для олимпиадников</a>.</p>
 <h3>Оглавление</h3>
 <ul class="pl0-ns ml0">
 <li class="list f5 w-100 underline-hover nl1">
