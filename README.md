@@ -7,7 +7,8 @@
 
 ## Генерация сайта
 
-Для генерации фронтенда используется `build.sh`, внутри — `npm run build` и перемещение файлов для корректных trailing slash для CloudFlare Pages.
+1. Установить зависимости `npm install`
+2. Сгенерировать фронтенд `build.sh` или `source build.sh` (внутри — `npm run build` с перемещением файлов для корректных `trailing slash` для `CloudFlare Pages`).
 
 ## Содержимое репозитория
 
