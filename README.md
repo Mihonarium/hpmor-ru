@@ -31,4 +31,4 @@
 
 ## Как помочь
 
-Issues и pull requests приветствуются!
+Issues и Pull requests приветствуются!
