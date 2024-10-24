@@ -14,8 +14,8 @@
 ### Страницы
 
 - [Главная страница](src/pages/index.js)
-- [/getbooks/](src/pages/getbooks.js) (получает и отображает страницы из API, в остальном сайт статичен)
-- [docs](docs): markdown-странички с книгой и дополнительной информацией.
+- [/getbooks/](src/pages/getbooks.js) — получает и отображает страницы из API, в остальном сайт статичен
+- [docs](docs) — markdown-странички с книгой и дополнительной информацией.
 
 ### Скрипты
 
@@ -23,9 +23,9 @@
 
 ### Конфиги и кастомизация
 
-- [docusaurus.config.js](docusaurus.config.js) — конфиг сайта.
-- [sidebars.js](sidebars.js) — конфиг оглавления, отображающегося на страницах.
-- [src/css/custom.css](src/css/custom.css) — кастомные стили.
+- [docusaurus.config.js](docusaurus.config.js) — конфиг сайта
+- [sidebars.js](sidebars.js) — конфиг оглавления, отображающегося на страницах
+- [src/css/custom.css](src/css/custom.css) — кастомные стили
 - [i18n/ru/code.json](i18n/ru/code.json) — кастомные названия (например, главы вместо страниц документации).
 
 ## Как помочь
