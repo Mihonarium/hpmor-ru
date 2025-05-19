@@ -7,27 +7,28 @@
 
 ## Генерация сайта
 
-Для генерации фронтенда используется `build.sh`, внутри — `npm run build` и перемещение файлов для корректных trailing slash для CloudFlare Pages.
+1. Установить зависимости `npm install`
+2. Сгенерировать фронтенд `build.sh` или `source build.sh` (внутри — `npm run build` с перемещением файлов для корректных `trailing slash` для `CloudFlare Pages`).
 
 ## Содержимое репозитория
 
 ### Страницы
 
 - [Главная страница](src/pages/index.js)
-- [/getbooks/](src/pages/getbooks.js): получает и отображает страницы из API (в остальном сайт статичен)
-- [docs](docs) — markdown-страницы с книгой и дополнительной информацией.
+- [/getbooks/](src/pages/getbooks.js) — получает и отображает страницы из API, в остальном сайт статичен
+- [docs](docs) — markdown-странички с книгой и дополнительной информацией.
 
 ### Скрипты
 
-- [remember_scroll.js](static/js/remember_scroll.js): предлагает продолжить чтение с последнего места.
+- [remember_scroll.js](static/js/remember_scroll.js) предлагает продолжить чтение с последнего места.
 
 ### Конфиги и кастомизация
 
-- [docusaurus.config.js](docusaurus.config.js) — конфиг сайта.
-- [sidebars.js](sidebars.js) — конфиг оглавления, отображающегося на страницах.
-- [src/css/custom.css](src/css/custom.css) — кастомные стили.
+- [docusaurus.config.js](docusaurus.config.js) — конфиг сайта
+- [sidebars.js](sidebars.js) — конфиг оглавления, отображающегося на страницах
+- [src/css/custom.css](src/css/custom.css) — кастомные стили
 - [i18n/ru/code.json](i18n/ru/code.json) — кастомные названия (например, главы вместо страниц документации).
 
 ## Как помочь
 
-Issues и pull requests приветствуются!
+Issues и Pull requests приветствуются!
