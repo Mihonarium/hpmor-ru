@@ -13,7 +13,6 @@ const config = {
   url: 'https://гпмрм.рф',
   baseUrl: '/',
   onBrokenLinks: 'log',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
