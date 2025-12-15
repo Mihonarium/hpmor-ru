@@ -31,7 +31,7 @@ module.exports = {
 			}, 
 			{
 			  type: 'link',
-			  label: 'Вёрстка для печати',
+			  label: 'Вёрстка для печати (PDF)',
 			  href: 'https://xn--c1asakg.xn--p1ai/pdf',
 			}, 
 		],
