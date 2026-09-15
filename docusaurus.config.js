@@ -144,6 +144,7 @@ const config = {
     [
       'classic',
       {
+        blog: false,
         docs: {
           routeBasePath: '/book/',
           sidebarPath: require.resolve('./sidebars.js'),
